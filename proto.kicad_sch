@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5f9d3b23-866e-4046-952d-536628d0cf9c")
+	(paper "A4")
+	(title_block
+		(title "Root Layout")
+		(date "2024-08-18")
+		(rev "0")
+		(company "Paisley Microsystems")
+		(comment 1 "Drafted: Matthew Guo")
+		(comment 2 "The design is not to be reproduced, distributed, transferred or sold")
+	)
+	(lib_symbols)
+	(junction
+		(at 131.445 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01f0dad9-2aa5-4ced-9ef8-68fa7252f738")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124b4b79-9e9f-47a1-8b6a-9fbe5089ecf2")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6650cb61-943d-4974-a341-a63260444e21")
+	)
+	(wire
+		(pts
+			(xy 131.445 92.71) (xy 131.445 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723c423d-e7e0-4fd9-ace8-15eb76a69758")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88d135f-141d-4cfe-9c60-2a0dde881bd6")
+	)
+	(wire
+		(pts
+			(xy 131.445 92.71) (xy 169.545 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca832084-569d-4164-875e-8e84a91a1f0c")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1064c7-f33c-49cc-98b0-0f188151e2be")
+	)
+	(wire
+		(pts
+			(xy 169.545 92.71) (xy 169.545 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11ed4f8-f732-40c4-a215-62ee86e7b4d4")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 131.445 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4cc077c-41af-4f06-bfb4-c521ee10c529")
+	)
+	(sheet
+		(at 66.04 97.79)
+		(size 34.29 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "017228de-9999-4818-83ba-e70a65a88041")
+		(property "Sheetname" "PWR"
+			(at 66.04 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR.kicad_sch"
+			(at 66.04 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 92.71 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e223a16-d014-4d4a-a9c0-8ee044e895dc")
+		)
+		(pin "ext" input
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74cb47d6-e78b-46e6-9f3e-c0807127b923")
+		)
+		(instances
+			(project "proto"
+				(path "/5f9d3b23-866e-4046-952d-536628d0cf9c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 97.79)
+		(size 34.29 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72664b8e-23b8-4ee3-b275-ce9fa0e4e5e1")
+		(property "Sheetname" "ESP"
+			(at 106.68 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP.kicad_sch"
+			(at 106.68 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "sda" input
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a680902-093e-45f9-9d37-f8d015e10709")
+		)
+		(pin "3v3" input
+			(at 131.445 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3858ab16-a052-4c18-9305-339e80f7a01c")
+		)
+		(pin "scl" input
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aed9e6cc-21e0-4003-85cb-b97e01507045")
+		)
+		(pin "ext" input
+			(at 106.68 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18935315-61a9-41c3-ab9c-8a88235f46b2")
+		)
+		(instances
+			(project "proto"
+				(path "/5f9d3b23-866e-4046-952d-536628d0cf9c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 97.79)
+		(size 29.845 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8426d84-2aec-429c-874d-40e81e2522c9")
+		(property "Sheetname" "DIFFAMP"
+			(at 147.32 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DIFFAMP.kicad_sch"
+			(at 147.32 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 169.545 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c371fe6-4720-45ab-9336-535245f2531f")
+		)
+		(pin "sda" input
+			(at 147.32 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0655970a-833a-45a1-a2ae-e34b16b1b91b")
+		)
+		(pin "scl" input
+			(at 147.32 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c0b8c2c-0f8f-4de0-a2df-f14d757caadd")
+		)
+		(instances
+			(project "proto"
+				(path "/5f9d3b23-866e-4046-952d-536628d0cf9c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
